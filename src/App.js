@@ -2,25 +2,17 @@ import React from "react";
 import Weather from "./Weather";
 import './App.css';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1> Getting started with React</h1>
-    <Weather/>
-      </header>
-      <footer>
-        <a
-          className="Github-link"
-          href="https://github.com/Loisyy/Weather-React.git"
-          target="_blank"
-          rel="noopener noreferrer" alt=" Source code"
-        >
-          Lois Nkeiru
-        </a>
-      </footer>
+    <div className="App">Weather App 
+    <footer>
+      This project was coded by Lois Nkeiru{" "}
+      <a href="https://github.com/Loisyy/Weather-React.git" target="_blank"
+      > 
+      Open sourced on Github
+      </a>
+    </footer>
     </div>
+    
   );
 }
-
-export default App;
